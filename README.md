@@ -1,12 +1,6 @@
 # Quantum Fourier Sampling over Conjugacy Classes in Nilpotent Non-Abelian Groups: A Case Study in the Heisenberg Group
 
-# Quantum Fourier Sampling over Conjugacy Classes: Heisenberg Group Case Study
-
-## Abstract
-
 We explore quantum Fourier sampling over conjugacy classes in the discrete Heisenberg group \$H\_3(\mathbb{Z}\_p)\$ using Qiskit's statevector simulations. Seven experiments demonstrate sampling distributions from ideal and noisy quantum states. We compare with classical FFT and hidden subgroup cosets, avoiding Aer-based simulation for compatibility with Google Colab.
-
----
 
 ## Use Cases
 
@@ -15,8 +9,6 @@ We explore quantum Fourier sampling over conjugacy classes in the discrete Heise
 * **Post-Quantum Cryptography**: HSP-based cryptanalysis.
 * **Quantum Tomography**: Use conjugacy structure for noise learning.
 * **Lattice Gauge Simulation**: Model discretized non-Abelian fields.
-
----
 
 ## Methodology Summary
 
@@ -27,8 +19,6 @@ We explore quantum Fourier sampling over conjugacy classes in the discrete Heise
 5. **Scaling**: Extend to \$\mathbb{Z}\_5\$ using 7-qubit systems.
 6. **FFT Comparison**: Classical FFT on the same vectors.
 7. **Coset Sampling**: Identify hidden subgroup structures using QFT.
-
----
 
 ## Experiments Conducted
 
@@ -41,8 +31,6 @@ We explore quantum Fourier sampling over conjugacy classes in the discrete Heise
 * **Exp 7**: Coset state QFT for a hidden subgroup in \$H\_3\$, comparing distribution spread
 
 Each experiment includes measurement histograms and outcome statistics. Manual state injection avoids AerSimulator issues on Colab.
-
----
 
 ## Key Results
 
@@ -57,8 +45,6 @@ Each experiment includes measurement histograms and outcome statistics. Manual s
 | Sharp Peaks  | ✓         | \~        | ✗   |
 | Noise Robust | ✗         | ✓         | ✓   |
 | Group Info   | ✓         | \~        | ✗   |
-
----
 
 ## Conclusion
 
