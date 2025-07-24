@@ -1,14 +1,14 @@
-# Quantum Fourier Sampling over Conjugacy Classes in Nilpotent Non-Abelian Groups: A Case Study in the Heisenberg Group
+# Quantum Fourier Sampling over Conjugacy Classes in Nilpotent Abelian Groups: A Case Study in the Heisenberg Group
 
 We explore quantum Fourier sampling over conjugacy classes in the discrete Heisenberg group \$H\_3(\mathbb{Z}\_p)\$ using Qiskit's statevector simulations. Seven experiments demonstrate sampling distributions from ideal and noisy quantum states. We compare with classical FFT and hidden subgroup cosets, avoiding Aer-based simulation for compatibility with Google Colab.
 
 ## Use Cases
 
 * **Quantum Chemistry**: Analyze symmetries in molecular structures.
-* **Quantum ML**: Feature encoding via non-Abelian states.
+* **Quantum ML**: Feature encoding via Abelian states.
 * **Post-Quantum Cryptography**: HSP-based cryptanalysis.
 * **Quantum Tomography**: Use conjugacy structure for noise learning.
-* **Lattice Gauge Simulation**: Model discretized non-Abelian fields.
+* **Lattice Gauge Simulation**: Model discretized Abelian fields.
 
 ## Methodology Summary
 
